@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    background-image:url(20260616_OHR.SevenMileTurtle_EN-US6164934763_UHD_bing.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;   
+     flex-wrap: wrap;
+       background-color: rgba(0, 0, 0, 0.875);
+}
+
+
+.calculator td{
+    width: 64px;
+    height: 53px;
+    font-size: 28px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 23px;
+
+}
+
+.calculator .td-style{
+    background-color: orange;
+}
+
+.calculator input{
+    
+width:100%;
+height: 50px;
+font-size: 20px;
+text-align: right;
+border: 2px solid white;
+  
+
+}
+table{
+    /* color: blanchedalmond;  */
+    border : 3px solid white;
+    background-color: rgba(6, 12, 6, 0.699) ;
+    color: white;
+}
+
+ 
